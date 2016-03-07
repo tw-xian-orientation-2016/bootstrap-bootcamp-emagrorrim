@@ -2,8 +2,13 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
-.container {
-  background-color: white;
+.box {
+  margin-bottom: 5%;
+}
+
+.avatar {
+  padding: 1%;
+  background-color: rgb(237, 237, 237);
 }
 
 header {
@@ -15,6 +20,9 @@ article {
   height: 100%;
 }
 
+.color-white {
+  color: white;
+}
 .color-red {
   color: rgb(240, 86, 61);
 }
@@ -63,11 +71,12 @@ article {
 #education {
   list-style-type: none;
   padding-left: 0px;
-  margin-top: 10%;
+  margin-top: 5%;
+  position: relative;
 }
 
-li {
-  margin-bottom: 5%;
+#education li {
+  margin-bottom: 2%;
   position: relative;
   float: left;
 }
@@ -85,14 +94,16 @@ li p{
 }
 
 .content {
+  width: 80%;
   background-color: rgb(238, 238, 238);
 }
 
 #education:before {
-  width: 3px;
-  height: 520px;
+  display: block;
+  width: 5px;
+  height: 100%;
   position: absolute;
-  margin-left: 7%;
+  margin-left: 27px;
   margin-top: -2%;
   background-color: rgb(240, 86, 61);
 }
@@ -100,12 +111,13 @@ li p{
 #experience {
   list-style-type: none;
   padding-left: 0px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 #contract {
   list-style-type: none;
   padding-left: 0px;
-  margin-top: 10%;
+  /*margin-bottom: 10%;*/
+  margin-top: 5%;
 }
 
 #contract li {
@@ -137,6 +149,11 @@ li p{
 }
 
 .hobby {
+  margin-top: 2%;
   background-color: rgb(167, 82, 101);
   border: none;
+}
+
+.glyphicon-star {
+  margin-left: 2%;
 }
