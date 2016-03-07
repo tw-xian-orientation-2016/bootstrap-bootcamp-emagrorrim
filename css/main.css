@@ -2,6 +2,26 @@ body {
   background-color: rgb(237, 237, 237);
 }
 
+.img-thumbnail {
+  background-color: rgb(237, 237, 237);
+  border: none;
+}
+
+.axis {
+  margin-top: 2%;
+  height: 15px;
+  border-bottom: 3px rgb(209, 209, 209) solid;
+  border-left: 3px rgb(209, 209, 209) solid;
+}
+
+.axis-right {
+  margin-top: 2%;
+  height: 15px;
+  border-bottom: 3px rgb(209, 209, 209) solid;
+  border-left: 3px rgb(209, 209, 209) solid;
+  border-right: 3px rgb(209, 209, 209) solid;
+}
+
 .box {
   margin-bottom: 5%;
 }
