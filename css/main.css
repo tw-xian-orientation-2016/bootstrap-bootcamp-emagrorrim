@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+.container {
+  background-color: white;
+}
+
+header {
+  margin-top: -7%;
+  padding-top: 7%;
+}
+
+article {
+  height: 100%;
+}
+
+.color-red {
+  color: rgb(240, 86, 61);
+}
+
+.color-gray {
+  color: gray;
+}
+
+.bg-red {
+  background-color: rgb(240, 86, 61);
+  margin-top: 1%;
+  height: 30px;
+  color: white;
+}
+
+.bg-red p {
+  height: 100%;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.bg-width {
+  margin-right: -1%;
+  margin-left: -1%;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+
+.img-circle {
+  margin-top: 1%;
+  width: 13%;
+  height: 13%;
+}
+
+.line {
+  height: 1px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 1px;
+  background-color: rgb(235, 235, 235);
+}
+
+#education {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 10%;
+}
+
+li {
+  margin-bottom: 5%;
+  position: relative;
+  float: left;
+}
+
+li p{
+  font-size: 0.7em;
+}
+
+.year {
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.content {
+  background-color: rgb(238, 238, 238);
+}
+
+#education:before {
+  width: 3px;
+  height: 520px;
+  position: absolute;
+  margin-left: 7%;
+  margin-top: -2%;
+  background-color: rgb(240, 86, 61);
+}
+
+#experience {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 10%;
+}
+#contract {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 10%;
+}
+
+#contract li {
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+#contract h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-right: 1px rgb(238, 238, 238) solid;
+  border-bottom: 1px rgb(238, 238, 238) solid;
+}
+
+.margin-l {
+  margin-left: 1%;
+}
+
+.language {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.hobby {
+  background-color: rgb(167, 82, 101);
+  border: none;
+}
